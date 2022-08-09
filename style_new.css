@@ -1,0 +1,356 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Main */
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.row{
+  margin:0px;
+}
+.col1{
+width: 50%;
+padding:0px 25px;
+float: left;
+}
+.col2{
+float: left;
+padding:0px 5px;
+width: 50%;
+}
+.card1{
+padding:0px 100px;
+}
+.card2{
+padding:0px 5px;
+margin-top: -230px;
+align-items: center;
+justify-content: center;
+}
+.card2 img{
+  position:relative;
+}
+.but{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #262626;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #ffd633;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.but:hover{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #262626;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.fab{
+  font-size: 30px;
+  padding-left: 15px;
+}
+.fab:hover{
+  font-size: 30px;
+  padding-left: 15px;
+  color: #ffcc00;
+}
+.underline{
+  text-decoration: underline #ffd633 3px;
+  text-underline-offset: 8px;
+}
+
+/* About */
+.about{
+  padding-top:15px ;
+}
+.about-row::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+.about-col1{
+  width: 50%;
+  padding:25px;
+  margin-left: 50px;
+  float:left;
+}
+.about-col2{
+  width: 50%;
+  padding:25px;
+  margin-left: -100px;
+  float:left;
+}
+.about-card1{
+  padding:25px;
+  text-align: center;
+  background-color: ;
+  font-size: 20px;
+  font-family: inherit;
+  letter-spacing: 3px;
+}
+.about-card2{
+  padding:25px 45px;
+  text-align: justify;
+  background-color: ;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+.over{
+  margin-top:20px;
+}
+.over-para{
+  margin-top:10px;
+  letter-spacing:1px;
+}
+.but-cv{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: -5px;
+  background-color: #ffd633;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.but-cv:hover{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #262626;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.about-img{
+  width: 75%;
+}
+
+/* Skills */
+.skill{
+  padding-top: 0px;
+}
+
+.skill-row:after{
+  clear: both;
+  content: "";
+  display: table;
+
+}
+.skill-col1{
+    width: 60%;
+    margin-left: 20%;
+    padding: 25px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-card1{
+  padding:5px 20px;
+  margin-top: 25px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+/* .skill-card2{
+  padding: 25px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+} */
+.per{
+  position:absolute;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+progress {
+  width: 90%;
+  margin: 10px;
+  height: 10px;
+  padding: 3px;
+  border: 0 none;
+  background: #d9d9d9;
+  border-radius: 15px;
+}
+progress::-moz-progress-bar {
+  border-radius: 15px;
+  background: #ffd633;
+}
+
+/* Projects */
+.project-row {padding:15px 60px;}
+
+.project-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-col {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.project-card {
+  padding:25px;
+  padding-bottom: 35px;
+  text-align:left;
+  color:black;
+  border: 2px solid #ffd633;
+  background-color: ;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.project-card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+.but-demo{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: -10px;
+  background-color: #ffd633;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact */
+
+.contact-row {padding:15px 80px;}
+
+.contact-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-col {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.contact-card1 {
+  margin-top: 35px;
+  padding:25px;
+  font-size: 17px;
+  padding-bottom: 35px;
+  text-align:left;
+  color:black;
+}
+.contact-card2 {
+  padding:25px;
+  padding-bottom: 35px;
+  text-align:left;
+  color:black;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 2px solid #ffd633;
+}
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 8px 0;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  background-color: #ffd633;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+input[type=submit]:hover {
+  width: 100%;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 8px 0;
+  border: 2px solid #ffd633;
+  border-radius: 20px;
+  background-color: #ffd633;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+.footer {
+   position:  relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 25px;
+   background-color: #ffd633;
+   color: black;
+   text-align: center;
+}
+
+
+/* Goto Top */
+#go-top{
+ display: none;
+ position: fixed;
+ bottom: 30px;
+ right: 60px;
+ z-index: 99;
+ font-size: 20px;
+ border: none;
+ outline: none;
+ background-color: white;
+ color: black;
+ border: 3px solid #ffd633;
+ cursor: pointer;
+ padding:10px 15px;
+ border-radius: 5px;
+}
+#go-top:hover{
+ display: none;
+ position: fixed;
+ bottom: 30px;
+ right: 60px;
+ z-index: 99;
+ font-size: 20px;
+ border: none;
+ outline: none;
+ background-color: #fff0b3;
+ color: black;
+ border: 3px solid #ffd633;
+ cursor: pointer;
+ padding:10px 15px;
+ border-radius: 5px;
+}
